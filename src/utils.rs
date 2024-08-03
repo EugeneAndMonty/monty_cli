@@ -6,6 +6,7 @@ use std::thread;
 
 pub(crate) fn start_subprocess() {
     let mut cmd = Command::new(MONTY_DB_PATH);
+    println!("{:?}", cmd);
 
     let child: Result<std::process::Child, io::Error> = cmd.stdout(Stdio::null())
         .stderr(Stdio::null())
@@ -36,7 +37,7 @@ pub(crate) fn start_subprocess() {
 
 pub(crate) fn stop_subprocess() {
     if cfg!(target_os = "windows") {
-        stop_subprocess_windows();
+        //stop_subprocess_windows();
     } else {
         #[cfg(unix)]
         stop_subprocess_unix();
