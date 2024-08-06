@@ -37,7 +37,7 @@ pub(crate) fn start_subprocess() {
 
 pub(crate) fn stop_subprocess() {
     if cfg!(target_os = "windows") {
-        //stop_subprocess_windows();
+        stop_subprocess_windows();
     } else {
         #[cfg(unix)]
         stop_subprocess_unix();

@@ -20,16 +20,22 @@ pub(crate) const HELPROMPT: &str =
 pub(crate) const DESCRIPTION: &str = "Database engine commands";
 pub(crate) const SETUP_PROMPT: &str = "Setup host, port and max number of connections";
 
-//UNIX BASED PATHS
-pub(crate) const MONTY_DB_PATH: &str = "/Users/user/Desktop/monty_db/target/debug/monty_db";
-//pub(crate) const FILE_PATH_SUPEROWNER: &str = "/Users/eugene/Desktop/project/monty_cli/target/debug/credentials.bin"; //credentials.bin
-pub(crate) const FILE_PATH_SETUP: &str = "/Users/user/Desktop/monty_cli/target/debug/config.bin"; //config.bin
-pub(crate) const FILE_PATH_BACKGROUND_TASKS: &str = "/Users/user/Desktop/monty_cli/target/debug/background.bin"; //background.bin
+// //UNIX BASED PATHS
+// pub(crate) const MONTY_DB_PATH: &str = "/Users/user/Desktop/monty_db/target/debug/monty_db";
+// //pub(crate) const FILE_PATH_SUPEROWNER: &str = "/Users/eugene/Desktop/project/monty_cli/target/debug/credentials.bin"; //credentials.bin
+// pub(crate) const FILE_PATH_SETUP: &str = "/Users/user/Desktop/monty_cli/target/debug/config.bin"; //config.bin
+// pub(crate) const FILE_PATH_BACKGROUND_TASKS: &str = "/Users/user/Desktop/monty_cli/target/debug/background.bin"; //background.bin
 
 //WINDOWS BASED PATHS
 // pub(crate) const MONTY_DB_PATH: &str = "C:\\Users\\esukharev\\Desktop\\new_folder\\monty_db\\target\\debug\\monty_db.exe";
 // pub(crate) const FILE_PATH_SETUP: &str = "C:\\Users\\esukharev\\Desktop\\new_folder\\monty_cli\\target\\debug\\config.bin";
 // pub(crate) const FILE_PATH_BACKGROUND_TASKS: &str = "C:\\Users\\esukharev\\Desktop\\new_folder\\monty_cli\\target\\debug\\background.bin";
 
+//WINDOWS BASED PATHS
+pub(crate) const MONTY_DB_PATH: &str = "D:\\monty\\monty_db\\target\\debug\\monty_db.exe";
+// pub(crate) const FILE_PATH_SUPEROWNER: &str = "D:\\monty\\monty_db\\target\\debug\\superowner_credentials";
+// pub(crate) const FILE_PATH_OWNERS: &str = "D:\\monty\\monty_db\\target\\debug\\owners_credentials";
+pub(crate) const FILE_PATH_SETUP: &str = "D:\\monty\\monty_db\\target\\debug\\config";
+pub(crate) const FILE_PATH_BACKGROUND_TASKS: &str = "D:\\monty\\monty_db\\target\\debug\\background";
 
 pub(crate) const PAGE_SIZE: usize = 4096;
